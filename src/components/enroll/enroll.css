@@ -1,0 +1,42 @@
+.enroll-global {
+  background: #f8faff;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.enroll-global h3 {
+  padding-top: 50px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+.enroll-global p {
+}
+.enroll-global button {
+  background: #3ee792 none repeat scroll 0 0 !important;
+  border: 0 none;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 13px 20px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-weight: 900;
+}
+@media only screen and (min-width: 768px) {
+  .enroll-global {
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  .enrol-sections {
+    margin: auto;
+  }
+  .enrol-sections h3 {
+    text-align: left;
+  }
+  .enroll-button {
+    margin-top: auto;
+  }
+}

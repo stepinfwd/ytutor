@@ -1,0 +1,34 @@
+.testimonial-header {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 50px;
+
+  margin-bottom: 30px;
+}
+.testimonial-global {
+  background: #f8faff;
+  padding-bottom: 50px;
+  height: 34rem;
+}
+.testimonial-client-details h3 {
+  font-size: 22px;
+  font-weight: 900;
+  margin-left: 20px;
+}
+.testimonial-client-details img {
+  margin-bottom: 20px;
+  border-radius: 100%;
+  text-align: initial;
+  margin-left: 20px;
+}
+.testimonial-client-details p {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .testimonial-header {
+    font-size: 32px;
+  }
+}
