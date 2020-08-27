@@ -1,7 +1,7 @@
 import React from "react";
 import "./feature.css";
 import icon1 from "./project.svg";
-import icon2 from "./group.svg";
+// import icon2 from "./group.svg";
 import icon3 from "./graduation.svg";
 function Feature() {
   return (
@@ -9,7 +9,7 @@ function Feature() {
       <div className="feature-global row col-md-12 col-lg-12 offset-md-1 offset-lg-1">
         <div className=" feature-list col-lg-4 col-md-4">
           <span>
-            <img src={icon1}></img>
+            <img alt="" src={icon1}></img>
           </span>
           <h3>Certificate</h3>
           <p>
@@ -20,7 +20,7 @@ function Feature() {
 
         <div className=" feature-list col-lg-4 col-md-4">
           <span>
-            <img src={icon3}></img>
+            <img alt="" src={icon3}></img>
           </span>
           <h3>Expert Instructors</h3>
           <p>
@@ -31,7 +31,7 @@ function Feature() {
 
         <div className=" feature-list col-lg-4 col-md-4">
           <span>
-            <img src={icon1}></img>
+            <img alt="" src={icon1}></img>
           </span>
           <h3>Learn from anywhere</h3>
           <p>

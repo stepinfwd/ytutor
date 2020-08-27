@@ -14,7 +14,7 @@ function Video() {
         </p>
       </div>
       <div className=" col-lg-6 col col-md-6   col-sm-12">
-        <img className="video-img" src={img}></img>
+        <img alt="" className="video-img" src={img}></img>
       </div>
     </div>
   );

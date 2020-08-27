@@ -1,7 +1,5 @@
 import React from "react";
 import "./banner.css";
-import slide1 from "./slide-1.jpg";
-import slide2 from "./slide_1.jpg";
 import Header from "../header/header";
 import { Carousel } from "react-bootstrap";
 

@@ -1,6 +1,5 @@
 import React from "react";
 import "./faq.css";
-import Header from "../header/header";
 function Faq() {
   return (
     <div className="container col-lg-10 col-md-10 offset-lg-1 offset-md-1 ">

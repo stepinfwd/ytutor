@@ -57,9 +57,9 @@
     height: 800px;
   }
 }
-@media only screen and (min-width: 1201px) and (maz-width: 1919px) {
+@media only screen and (min-width: 1201px) and (max-width: 1919px) {
   .banner-text h3 {
-    padding-top: 10rem;
+    padding-top: 10rem !important;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
@@ -67,7 +67,7 @@
     height: 768px;
   }
   .banner-text h3 {
-    padding-top: 9rem;
+    padding-top: 9rem !important;
   }
 }
 
@@ -88,5 +88,8 @@
   .welcome-single-slide {
     height: 950px;
     width: 100%;
+  }
+  .banner-text h3 {
+    padding-top: 14rem !important;
   }
 }

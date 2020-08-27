@@ -12,7 +12,7 @@ function Testimonial() {
           <Carousel.Item>
             <div className="text-center mx-auto col-lg-8 col-md-8">
               <div class="mb-4 text-gray-500">
-                <img src={quote}></img>
+                <img alt="" src={quote}></img>
                 {/* <svg
               height="35px"
               class="mb-2 mx-auto"
@@ -42,7 +42,7 @@ function Testimonial() {
                 </p>
               </div>
               <div className="testimonial-client-details">
-                <img src={person}></img>
+                <img alt="" src={person}></img>
                 <h3>Harould crouse</h3>
 
                 <p>sales manager</p>
@@ -52,7 +52,7 @@ function Testimonial() {
           <Carousel.Item>
             <div className="text-center mx-auto col-lg-8 col-md-8">
               <div class="mb-4 text-gray-500">
-                <img src={quote}></img>
+                <img alt="" src={quote}></img>
                 {/* <svg
               height="35px"
               class="mb-2 mx-auto"
@@ -82,7 +82,7 @@ function Testimonial() {
                 </p>
               </div>
               <div className="testimonial-client-details">
-                <img src={person}></img>
+                <img alt="" src={person}></img>
                 <h3>Harould crouse</h3>
 
                 <p>sales manager</p>
