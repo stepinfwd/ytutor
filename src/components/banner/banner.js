@@ -1,6 +1,7 @@
 import React from "react";
 import "./banner.css";
 import Header from "../header/header";
+import { Slide, Fade } from "react-awesome-reveal";
 import { Carousel } from "react-bootstrap";
 
 function Banner() {
@@ -10,36 +11,48 @@ function Banner() {
         <Carousel.Item>
           <div className="container-fluid banner-global welcome-single-slide">
             <div className="banner-text col-md-7 col-lg-5 col-sm-12 col-xs-12 offset-lg-1 offset-md-1">
-              <h3>Develop a passion for learning new things.</h3>
-              <p>
-                Was certainty remaining engrossed applauded sir how discovery.
-                Settled opinion how enjoyed greater joy adapted too shy. Now
-                properly surprise expenses.
-              </p>
+              <Slide direction={"up"}>
+                <h3>Develop a passion for learning new things.</h3>
+              </Slide>
+              <Fade delay={800}>
+                <p>
+                  Was certainty remaining engrossed applauded sir how discovery.
+                  Settled opinion how enjoyed greater joy adapted too shy. Now
+                  properly surprise expenses.
+                </p>
+              </Fade>
             </div>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className="container-fluid banner-global welcome-single-slide">
             <div className="banner-text banner-color-1 col-md-7 col-lg-5 col-sm-12 col-xs-12 offset-lg-1 offset-md-1">
-              <h3>Develop a passion for learning new things.</h3>
-              <p>
-                Was certainty remaining engrossed applauded sir how discovery.
-                Settled opinion how enjoyed greater joy adapted too shy. Now
-                properly surprise expenses.
-              </p>
+              <Slide direction={"up"}>
+                <h3>Develop a passion for learning new things.</h3>
+              </Slide>
+              <Fade delay={800}>
+                <p>
+                  Was certainty remaining engrossed applauded sir how discovery.
+                  Settled opinion how enjoyed greater joy adapted too shy. Now
+                  properly surprise expenses.
+                </p>
+              </Fade>
             </div>
           </div>
         </Carousel.Item>
         <Carousel.Item>
           <div className="container-fluid banner-global welcome-single-slide">
             <div className="banner-text banner-color-2 col-md-7 col-lg-5 col-sm-12 col-xs-12 offset-lg-1 offset-md-1">
-              <h3>Develop a passion for learning new things.</h3>
-              <p>
-                Was certainty remaining engrossed applauded sir how discovery.
-                Settled opinion how enjoyed greater joy adapted too shy. Now
-                properly surprise expenses.
-              </p>
+              <Slide direction={"up"}>
+                <h3>Develop a passion for learning new things.</h3>
+              </Slide>
+              <Fade delay={800}>
+                <p>
+                  Was certainty remaining engrossed applauded sir how discovery.
+                  Settled opinion how enjoyed greater joy adapted too shy. Now
+                  properly surprise expenses.
+                </p>
+              </Fade>
             </div>
           </div>
         </Carousel.Item>

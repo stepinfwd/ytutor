@@ -1,5 +1,7 @@
 import React from "react";
 import "./enroll.css";
+import { Link } from "react-router";
+import wi from "./whatsapp.svg";
 function Enroll() {
   return (
     <div className="container-fluid enroll-global row">
@@ -13,6 +15,12 @@ function Enroll() {
       </div>
       <div className="col-lg-3 col-md-3 col-sm-12 offset-lg-2 offset-md-2 enrol-sections enroll-button">
         <button>Enroll Now</button>
+        {/* <Link to="https://api.whatsapp.com/send?phone=1111111111">
+          {" "}
+          <span className="whatsapp-icon">
+            <img src={wi}></img>
+          </span>
+        </Link> */}
       </div>
     </div>
   );

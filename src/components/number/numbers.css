@@ -1,14 +1,18 @@
 .numbers-container {
   text-align: center;
-  background-image: url("./fact-bg.jpg");
-  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  background-size: cover;
   color: #ffffff;
-  background-position: 50% -75.6px;
-  /* background-attachment: fixed; */
-  /* opacity: 20; */
+  background-image: url("./fact-bg.jpg");
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-position: 50% -46.4px;
+}
+.number-global-positioner {
+  position: relative;
 }
 .numbers-container h2 {
   font-size: 26px;
@@ -25,7 +29,8 @@
 .number-box {
   padding: 30px;
 }
-/* .overlay::after {
+/* FOR OVERLAY SHADE EFFECT */
+.overlay::after {
   content: "";
   position: absolute;
   top: 0;
@@ -41,7 +46,7 @@
 }
 .overlay > * {
   z-index: 100;
-} */
+}
 @media only screen and (min-width: 1200px) {
   .number-box {
     padding-top: 100px;
