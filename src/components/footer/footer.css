@@ -2,12 +2,19 @@
   background: #171932;
   padding-bottom: 30px;
 }
+.footer-body h2 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  padding-top: 80px;
+  text-align: center;
+}
 .footer-global {
   padding: 0 !important;
   margin: 0 !important;
 }
 .footer h3 {
-  padding-top: 80px;
   font-size: 14px;
   font-weight: 700;
   color: #ffffff;
@@ -76,12 +83,18 @@
   }
   .newsletter h3 {
     text-align: left;
+    font-size: 24px;
+    font-weight: 900;
   }
   .footer {
     padding-top: 80px;
   }
   .footer h3 {
     padding-top: 0px;
+  }
+  .footer-body h2 {
+    padding-top: 0px !important;
+    text-align: left !important;
   }
 }
 
@@ -90,6 +103,6 @@
     padding-top: 0px;
   }
   .footer-body h3 {
-    padding-top: 80px;
+    text-align: center;
   }
 }

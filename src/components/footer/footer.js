@@ -5,8 +5,8 @@ function Footer() {
     <div className="container-fluid col-lg-12 footer-global">
       <div className=" footer">
         <div className="  row col-lg-10 col-md-10 offset-lg-1 offset-md-1">
-          <div className=" col-md-6 col-sm-12 col-lg-6 col-xs-12 footer-body ">
-            {/* <h2>Educrown</h2> */}
+          <div className=" col-md-5 col-sm-12 col-lg-5 col-xs-12 footer-body ">
+            <h2>Educrown</h2>
             <h3>
               Saudi Arabia has been accused of using anti-terror laws to
               suppress free expression and failing to carry out independent
@@ -25,7 +25,7 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="newsletter  col-md-4 col-sm-6 col-lg-4 col-xs-12">
+          <div className="newsletter  col-md-5 col-sm-6 col-lg-5 col-xs-12">
             <h3>Subscribe Our Newsletter</h3>
             <p>
               Doubtful for answered one fat indulged margaret sir shutters

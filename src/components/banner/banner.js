@@ -6,7 +6,6 @@ import { Carousel } from "react-bootstrap";
 function Banner() {
   return (
     <div>
-      <Header />
       <Carousel>
         <Carousel.Item>
           <div className="container-fluid banner-global welcome-single-slide">

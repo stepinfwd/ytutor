@@ -14,12 +14,7 @@
   z-index: 100;
 }
 */
-.banner-color-1 {
-  /* background-color: blue; */
-}
-.banner-color-2 {
-  /* background-color: rgb(152, 253, 56); */
-}
+
 .banner-global::after {
   content: "";
   position: absolute;
@@ -39,7 +34,7 @@
   ;
 }
 .banner-text {
-  z-index: 999999999999999 !important;
+  z-index: 100 !important;
 }
 .banner-text h3 {
   padding-top: 6rem;

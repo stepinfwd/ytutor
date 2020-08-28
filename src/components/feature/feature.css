@@ -53,25 +53,16 @@
     background-color: #ffffff;
     margin: -3rem auto 0 auto !important;
 
-    z-index: 9999999;
+    z-index: 100;
   }
   .feature-global {
     /* width: 70vw; */
     margin: 0 auto;
+    box-shadow: 0 9px 9px 0 #c7c7c7 !important;
+    background-color: #ffffff;
+    margin-top: -3rem;
   }
   .feature-bottom-section {
     padding-top: 100px;
-  }
-  .feature-global {
-    box-shadow: 0 9px 9px 0 #c7c7c7 !important;
-    background-color: #ffffff;
-    margin-top: -3rem;
-    z-index: 9999999;
-  }
-  .feature-global {
-    box-shadow: 0 9px 9px 0 #c7c7c7 !important;
-    background-color: #ffffff;
-    margin-top: -3rem;
-    z-index: 9999999;
   }
 }

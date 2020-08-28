@@ -1,5 +1,7 @@
 /* //CUSTOM STYLES START */
-
+.nav-container {
+  z-index: 99999999999;
+}
 .navbar-dark .navbar-brand {
   color: rgb(0, 0, 0) !important;
   font-weight: 900;
@@ -43,9 +45,18 @@
 
 @media screen and (min-width: 992px) {
   .navbar-dark .navbar-brand {
-    margin-left: 3rem;
+    margin-left: 8rem;
   }
   .hero-text {
     margin-left: 5rem;
+  }
+  .nav-link {
+    padding-right: 25px !important;
+    /* font-size: 16px !important; */
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+  }
+  #responsive-navbar-nav {
+    margin-left: 9rem;
   }
 }

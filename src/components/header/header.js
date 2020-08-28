@@ -16,7 +16,7 @@ function Header() {
         <Navbar.Brand href="#home">Educrown</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
+          <Nav className="ml-auto mr-auto">
             <Nav.Link href="#features">Home</Nav.Link>
             <Nav.Link href="#features">Features</Nav.Link>
             <Nav.Link href="#pricing">Course</Nav.Link>

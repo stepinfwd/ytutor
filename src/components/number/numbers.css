@@ -3,6 +3,8 @@
   background-image: url("./fact-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   color: #ffffff;
   background-position: 50% -75.6px;
   /* background-attachment: fixed; */
