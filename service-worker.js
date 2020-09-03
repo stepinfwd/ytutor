@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ytutor/precache-manifest.c2d7b52757e586207744973597dd586f.js"
+  "/ytutor/precache-manifest.8e14a113978c6b4593030880231a792b.js"
 );
 
 self.addEventListener('message', (event) => {
