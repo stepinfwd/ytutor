@@ -28,7 +28,7 @@ function Enroll() {
             position: "fixed",
             right: "1 rem",
             bottom: "1rem",
-            zIndex: "1",
+            zIndex: "99999999999",
           }}
         >
           <span className="whatsapp-icon">
