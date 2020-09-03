@@ -6,7 +6,7 @@ function Footer() {
       <div className=" footer">
         <div className="row col-lg-10 col-md-10 offset-lg-1 offset-md-1 footer-body-container">
           <div className=" col-md-5 col-sm-12 col-lg-5 col-xs-12 footer-body ">
-            <h2>Educrown</h2>
+            <h2>Yourstutor</h2>
             <h3>
               Saudi Arabia has been accused of using anti-terror laws to
               suppress free expression and failing to carry out independent

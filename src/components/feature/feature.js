@@ -12,10 +12,10 @@ function Feature() {
           <span>
             <img alt="" src={icon1}></img>
           </span>
-          <h3>Certificate</h3>
+          <h3>Expert tutors</h3>
           <p>
-            A Google Docs scam that appears to be widespread began landing in
-            Wednesday in what seemed to be a phishing attack.
+            Expert and skillful tutors are what we unfailingly ensure to provide
+            every student with.
           </p>
         </div>
 
@@ -23,10 +23,11 @@ function Feature() {
           <span>
             <img alt="" src={icon3}></img>
           </span>
-          <h3>Expert Instructors</h3>
+          <h3>Customized classes</h3>
           <p>
-            A Google Docs scam that appears to be widespread began landing in
-            Wednesday in what seemed to be a phishing attack.
+            Every one of our students is promised of exactly the kind of
+            teaching they are in need of, based on their academic and personal
+            requirements.
           </p>
         </div>
 
@@ -34,17 +35,18 @@ function Feature() {
           <span>
             <img alt="" src={icon1}></img>
           </span>
-          <h3>Learn from anywhere</h3>
+          <h3>Individual attention</h3>
           <p>
-            A Google Docs scam that appears to be widespread began landing in
-            Wednesday in what seemed to be a phishing attack.
+            All the sessions will be lively interactions between the tutor and
+            the student. Individual attention for every student is ensured this
+            way. We provide one on one tutoring sessions.
           </p>
         </div>
       </div>
       <div className="container">
         <div className="feature-bottom-section col-md-8 col-lg-8 offset-md-2 offset-lg-2">
           <Fade delay={400} triggerOnce>
-            <h3>Educrown is trusted by 50,000+ student.</h3>
+            <h3>Yourstutor is trusted by 50,000+ student.</h3>
             <p>
               Microsoft has spent a lot of time trying to make Windows
               self-repairing, partly because it generally gets the blame when

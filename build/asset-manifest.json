@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ytutor/static/css/main.8ba0a456.chunk.css",
-    "main.js": "/ytutor/static/js/main.42c05e4e.chunk.js",
-    "main.js.map": "/ytutor/static/js/main.42c05e4e.chunk.js.map",
+    "main.css": "/ytutor/static/css/main.e44915a2.chunk.css",
+    "main.js": "/ytutor/static/js/main.5cdba0ef.chunk.js",
+    "main.js.map": "/ytutor/static/js/main.5cdba0ef.chunk.js.map",
     "runtime-main.js": "/ytutor/static/js/runtime-main.96f97df1.js",
     "runtime-main.js.map": "/ytutor/static/js/runtime-main.96f97df1.js.map",
     "static/css/2.98f886d0.chunk.css": "/ytutor/static/css/2.98f886d0.chunk.css",
     "static/js/2.102807de.chunk.js": "/ytutor/static/js/2.102807de.chunk.js",
     "static/js/2.102807de.chunk.js.map": "/ytutor/static/js/2.102807de.chunk.js.map",
     "index.html": "/ytutor/index.html",
-    "precache-manifest.c8108a7a73618f1f157a9e54568a649d.js": "/ytutor/precache-manifest.c8108a7a73618f1f157a9e54568a649d.js",
+    "precache-manifest.b9964c2ebd88ff342b1a1b36b6b424d0.js": "/ytutor/precache-manifest.b9964c2ebd88ff342b1a1b36b6b424d0.js",
     "service-worker.js": "/ytutor/service-worker.js",
     "static/css/2.98f886d0.chunk.css.map": "/ytutor/static/css/2.98f886d0.chunk.css.map",
-    "static/css/main.8ba0a456.chunk.css.map": "/ytutor/static/css/main.8ba0a456.chunk.css.map",
+    "static/css/main.e44915a2.chunk.css.map": "/ytutor/static/css/main.e44915a2.chunk.css.map",
     "static/js/2.102807de.chunk.js.LICENSE.txt": "/ytutor/static/js/2.102807de.chunk.js.LICENSE.txt",
     "static/media/about.jpg": "/ytutor/static/media/about.411102df.jpg",
     "static/media/blog-1.jpg": "/ytutor/static/media/blog-1.dae2b1dd.jpg",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.96f97df1.js",
     "static/css/2.98f886d0.chunk.css",
     "static/js/2.102807de.chunk.js",
-    "static/css/main.8ba0a456.chunk.css",
-    "static/js/main.42c05e4e.chunk.js"
+    "static/css/main.e44915a2.chunk.css",
+    "static/js/main.5cdba0ef.chunk.js"
   ]
 }

@@ -37,7 +37,7 @@ function App() {
           //   color: this.state.status === "top" ? "#fff" : "#fff",
         }}
       >
-        <Navbar.Brand href="#home">Educrown</Navbar.Brand>
+        <Navbar.Brand href="#home">Yourstutor</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto mr-auto">
