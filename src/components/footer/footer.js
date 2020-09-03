@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="container-fluid col-lg-12 footer-global">
       <div className=" footer">
-        <div className="  row col-lg-10 col-md-10 offset-lg-1 offset-md-1">
+        <div className="row col-lg-10 col-md-10 offset-lg-1 offset-md-1 footer-body-container">
           <div className=" col-md-5 col-sm-12 col-lg-5 col-xs-12 footer-body ">
             <h2>Educrown</h2>
             <h3>

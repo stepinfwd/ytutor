@@ -8,7 +8,7 @@ function Blog() {
   return (
     <div className="container blog-global">
       <h3 className="blog-header">From Our Blog</h3>
-      <div className="  row col-lg-12 col-md-12 ">
+      <div className="  blog-card-container row col-lg-12 col-md-12 ">
         <div className="blog-card col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
           <img alt="" className="blog-card-img-top zoom-img" src={blogimg} />
           <div className="blog-card-body">

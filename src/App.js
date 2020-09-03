@@ -53,18 +53,19 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
       <Banner />
-      <Feature />
       <Numbers offsetY={offsetY} />
-      <Video />
+
+      <Feature />
+      <Enroll />
+
       <Testimonial />
+
+      <Video />
       <Blog />
-      <Faq />
       <Fade delay={1000} triggerOnce>
         <Contact />
       </Fade>
-      <Fade delay={700} triggerOnce>
-        <Enroll />
-      </Fade>
+      <Fade delay={700} triggerOnce></Fade>
       <Footer />
     </div>
   );

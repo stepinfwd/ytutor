@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "436b243c14366e96f565a4aa189ad6d1",
+    "revision": "463065594931bb284dea5cd767132ed8",
     "url": "/ytutor/index.html"
   },
   {
-    "revision": "f96d8e0cde85219aec70",
+    "revision": "a5496e5d0b9b06c8ce25",
     "url": "/ytutor/static/css/2.98f886d0.chunk.css"
   },
   {
-    "revision": "16d992df57b1500b81d7",
-    "url": "/ytutor/static/css/main.3c80ebad.chunk.css"
+    "revision": "52d6d4623523d740b59c",
+    "url": "/ytutor/static/css/main.d3cbedda.chunk.css"
   },
   {
-    "revision": "f96d8e0cde85219aec70",
-    "url": "/ytutor/static/js/2.391d419a.chunk.js"
+    "revision": "a5496e5d0b9b06c8ce25",
+    "url": "/ytutor/static/js/2.36f3bb32.chunk.js"
   },
   {
-    "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/ytutor/static/js/2.391d419a.chunk.js.LICENSE.txt"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "/ytutor/static/js/2.36f3bb32.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "16d992df57b1500b81d7",
-    "url": "/ytutor/static/js/main.15544080.chunk.js"
+    "revision": "52d6d4623523d740b59c",
+    "url": "/ytutor/static/js/main.051ef1c9.chunk.js"
   },
   {
     "revision": "125742bb497dfb12b46a",
@@ -62,5 +62,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "988842282a56612b6690b798d3518bb6",
     "url": "/ytutor/static/media/testmonial.98884228.jpg"
+  },
+  {
+    "revision": "591ad484c623bce49137401777911e6f",
+    "url": "/ytutor/static/media/whatsapp.591ad484.svg"
   }
 ]);
