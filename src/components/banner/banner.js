@@ -1,10 +1,14 @@
 import React from "react";
 import "./banner.css";
 import Header from "../header/header";
+import { useState, useEffect } from "react";
+
+import MyVerticallyCenteredModal from "./model.js";
 import { Slide, Fade } from "react-awesome-reveal";
 import { Carousel } from "react-bootstrap";
 
 function Banner() {
+  const [modalShow, setModalShow] = React.useState(false);
   return (
     <div>
       <Carousel>
@@ -16,9 +20,18 @@ function Banner() {
               </Slide>
               <Fade delay={800}>
                 <p>
-                  YT offers a platform where our tutors and students meet one on
-                  one and turn learning a fun experience
+                  YoursTutor offers a platform where our tutors and students
+                  meet one on one and turn learning a fun experience
                 </p>
+                <div className=" enrol-sections demo-button">
+                  <button variant="primary" onClick={() => setModalShow(true)}>
+                    Free Demo
+                  </button>
+                  <MyVerticallyCenteredModal
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                  />
+                </div>
               </Fade>
             </div>
           </div>
@@ -31,10 +44,19 @@ function Banner() {
               </Slide>
               <Fade delay={800}>
                 <p>
-                  YT offers classes in a wide variety of subjects and have
-                  highly qualified tutors aimed at helping your child achieve
-                  their dreams
+                  YoursTutor offers classes in a wide variety of subjects and
+                  have highly qualified tutors aimed at helping your child
+                  achieve their dreams
                 </p>
+                <div className=" enrol-sections demo-button">
+                  <button variant="primary" onClick={() => setModalShow(true)}>
+                    Free Demo
+                  </button>
+                  <MyVerticallyCenteredModal
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                  />
+                </div>
               </Fade>
             </div>
           </div>
@@ -50,6 +72,15 @@ function Banner() {
                   Book a free demo session with us now and let our work speak
                   for itself
                 </p>
+                <div className=" enrol-sections demo-button">
+                  <button variant="primary" onClick={() => setModalShow(true)}>
+                    Free Demo
+                  </button>
+                  <MyVerticallyCenteredModal
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
+                  />
+                </div>
               </Fade>
             </div>
           </div>

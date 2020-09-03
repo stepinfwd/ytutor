@@ -8,7 +8,9 @@ function Video() {
     <div className="container  video-global row col-lg-8 col-md-12 col-sm-12 offset-lg-2 ">
       <div className=" col-lg-6 col-md-5 col-sm-12 ">
         <Fade delay={200} triggerOnce>
-          <h3>Education is the foundation upon which we build our future.</h3>
+          <h3 className="video-section-header">
+            Education is the foundation upon which we build our future.
+          </h3>
           <p>
             A Google Docs scam that appears to be widespread began landing in
             users’ inboxes on Wednesday in what seemed to be a sophisticated

@@ -9,6 +9,9 @@
   height: auto;
   vertical-align: middle;
 }
+.video-section-header {
+  margin-top: 50px;
+}
 @media only screen and (min-width: 768px) {
   .video-global {
     padding-top: 100px;

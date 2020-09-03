@@ -24,9 +24,9 @@ function Testimonial() {
               </div>
               <div className="testimonial-client-details">
                 <img alt="" src={person}></img>
-                <h3>Harould crouse</h3>
+                <h3>Laila Mujeeb</h3>
 
-                <p>sales manager</p>
+                <p>Doctor</p>
               </div>
             </div>
           </Carousel.Item>
@@ -44,7 +44,7 @@ function Testimonial() {
               </div>
               <div className="testimonial-client-details">
                 <img alt="" src={person}></img>
-                <h3>Harould crouse</h3>
+                <h3>Vinoy</h3>
 
                 <p>sales manager</p>
               </div>
@@ -65,9 +65,9 @@ function Testimonial() {
               </div>
               <div className="testimonial-client-details">
                 <img alt="" src={person}></img>
-                <h3>Harould crouse</h3>
+                <h3>Harin Bhatt</h3>
 
-                <p>sales manager</p>
+                <p>Businessman</p>
               </div>
             </div>
           </Carousel.Item>
@@ -86,9 +86,9 @@ function Testimonial() {
               </div>
               <div className="testimonial-client-details">
                 <img alt="" src={person}></img>
-                <h3>Harould crouse</h3>
+                <h3>Faseela</h3>
 
-                <p>sales manager</p>
+                <p>House Wife</p>
               </div>
             </div>
           </Carousel.Item>
@@ -106,9 +106,9 @@ function Testimonial() {
               </div>
               <div className="testimonial-client-details">
                 <img alt="" src={person}></img>
-                <h3>Harould crouse</h3>
+                <h3>Amina</h3>
 
-                <p>sales manager</p>
+                <p>House Wife</p>
               </div>
             </div>
           </Carousel.Item>
@@ -126,9 +126,9 @@ function Testimonial() {
               </div>
               <div className="testimonial-client-details">
                 <img alt="" src={person}></img>
-                <h3>Harould crouse</h3>
+                <h3>Anantharaman</h3>
 
-                <p>sales manager</p>
+                <p>Lawyer</p>
               </div>
             </div>
           </Carousel.Item>

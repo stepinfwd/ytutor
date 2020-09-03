@@ -24,17 +24,17 @@ function Numbers(props) {
                 suffix=" K"
               />
             </h2>
-            <p>Graduated Students</p>
+            <p>Enrolled Students</p>
           </div>
           <div className="col-md-3 col-lg-3 each-number">
             <h2>
               {" "}
               <CountUp
-                start={33}
-                end={124}
+                start={0}
+                end={3}
                 duration={2.3}
                 useEasing={true}
-                suffix=" "
+                suffix="K "
               />
             </h2>
             <p>Expert Instructors</p>
@@ -57,7 +57,7 @@ function Numbers(props) {
               {" "}
               <CountUp
                 start={1}
-                end={15}
+                end={10}
                 duration={2.3}
                 useEasing={true}
                 suffix=" K"
