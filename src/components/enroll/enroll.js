@@ -4,6 +4,7 @@ import MyVerticallyCenteredModal from "./model.js";
 import Button from "react-bootstrap/Button";
 import "./enroll.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import ReactWhatsapp from "react-whatsapp";
 import wi from "./whatsapp.svg";
 function Enroll() {
   const [modalShow, setModalShow] = React.useState(false);
@@ -17,6 +18,16 @@ function Enroll() {
           Australian politician required stitches after knocking himself
           unconscious .
         </p>
+        <ReactWhatsapp
+          classname="whatsapp-chat"
+          number="1-212-736-5000"
+          message="Hey"
+          style={{ border: "1px solid white", marginBottom: "20px" }}
+        >
+          <span className="whatsapp-icon">
+            <img src={wi}></img>
+          </span>
+        </ReactWhatsapp>
       </div>
       <div className="col-lg-3 col-md-3 col-sm-12 offset-lg-2 offset-md-2 enrol-sections enroll-button">
         <button variant="primary" onClick={() => setModalShow(true)}>
@@ -26,14 +37,6 @@ function Enroll() {
           show={modalShow}
           onHide={() => setModalShow(false)}
         />
-        <Router>
-          <Link to="https://api.whatsapp.com/send?phone=1111111111">
-            {" "}
-            <span className="whatsapp-icon">
-              <img src={wi}></img>
-            </span>
-          </Link>
-        </Router>
       </div>
     </div>
   );
