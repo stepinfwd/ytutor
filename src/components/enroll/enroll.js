@@ -22,7 +22,13 @@ function Enroll() {
           classname="whatsapp-chat"
           number="1-212-736-5000"
           message="Hey"
-          style={{ border: "1px solid white", marginBottom: "20px" }}
+          style={{
+            border: "1px solid white",
+            marginBottom: "20px",
+            position: "fixed",
+            right: "1 rem",
+            bottom: "1rem",
+          }}
         >
           <span className="whatsapp-icon">
             <img src={wi}></img>
