@@ -39,7 +39,7 @@
   opacity: 0.7;
 }
 .banner-global {
-  height: 600px;
+  height: 100vh !important;
   background-color: rgb(238, 91, 91);
   background-image: url("./slide_1.jpg");
   margin: 0 !important;
@@ -64,10 +64,16 @@
   .welcome-single-slide {
     height: 800px;
   }
+  .banner-global {
+    height: 600px !important;
+  }
 }
 @media only screen and (min-width: 1201px) and (max-width: 1919px) {
   .banner-text h3 {
     padding-top: 10rem !important;
+  }
+  .banner-global {
+    height: 600px !important;
   }
 }
 @media (max-width: 991px) and (min-width: 768px) {
@@ -76,6 +82,9 @@
   }
   .banner-text h3 {
     padding-top: 9rem !important;
+  }
+  .banner-global {
+    height: 600px !important;
   }
 }
 
@@ -99,5 +108,8 @@
   }
   .banner-text h3 {
     padding-top: 14rem !important;
+  }
+  .banner-global {
+    height: 600px !important;
   }
 }

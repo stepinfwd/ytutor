@@ -36,7 +36,7 @@ function Banner() {
             </div>
           </div>
         </Carousel.Item>
-        <Carousel.Item>
+        {/* <Carousel.Item>
           <div className="container-fluid banner-global welcome-single-slide">
             <div className="banner-text banner-color-1 col-md-7 col-lg-5 col-sm-12 col-xs-12 offset-lg-1 offset-md-1">
               <Slide direction={"up"}>
@@ -84,7 +84,7 @@ function Banner() {
               </Fade>
             </div>
           </div>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
       {/* <Carousel.Caption>
             {" "}
