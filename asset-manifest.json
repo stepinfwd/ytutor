@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ytutor/static/css/main.fa1a5d24.chunk.css",
-    "main.js": "/ytutor/static/js/main.d10a70fe.chunk.js",
-    "main.js.map": "/ytutor/static/js/main.d10a70fe.chunk.js.map",
+    "main.js": "/ytutor/static/js/main.24584683.chunk.js",
+    "main.js.map": "/ytutor/static/js/main.24584683.chunk.js.map",
     "runtime-main.js": "/ytutor/static/js/runtime-main.96f97df1.js",
     "runtime-main.js.map": "/ytutor/static/js/runtime-main.96f97df1.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/ytutor/static/css/2.f3cffc9e.chunk.css",
     "static/js/2.1f51349e.chunk.js": "/ytutor/static/js/2.1f51349e.chunk.js",
     "static/js/2.1f51349e.chunk.js.map": "/ytutor/static/js/2.1f51349e.chunk.js.map",
     "index.html": "/ytutor/index.html",
-    "precache-manifest.64c23c45252ad836b766a73d7d1ce085.js": "/ytutor/precache-manifest.64c23c45252ad836b766a73d7d1ce085.js",
+    "precache-manifest.00c8597daec79737400ec1c8217a613b.js": "/ytutor/precache-manifest.00c8597daec79737400ec1c8217a613b.js",
     "service-worker.js": "/ytutor/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/ytutor/static/css/2.f3cffc9e.chunk.css.map",
     "static/css/main.fa1a5d24.chunk.css.map": "/ytutor/static/css/main.fa1a5d24.chunk.css.map",
@@ -30,6 +30,6 @@
     "static/css/2.f3cffc9e.chunk.css",
     "static/js/2.1f51349e.chunk.js",
     "static/css/main.fa1a5d24.chunk.css",
-    "static/js/main.d10a70fe.chunk.js"
+    "static/js/main.24584683.chunk.js"
   ]
 }
