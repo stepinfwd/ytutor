@@ -13,7 +13,8 @@ import Video from "./components/video/video";
 import Enroll from "./components/enroll/enroll";
 import Banner from "./components/banner/banner";
 import { Fade } from "react-awesome-reveal";
-
+import logo from "./logo/logo white.png";
+// WHATSAPP ICON IN ENROLL.js
 function App() {
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => setOffsetY(window.pageYOffset);
@@ -37,7 +38,9 @@ function App() {
           //   color: this.state.status === "top" ? "#fff" : "#fff",
         }}
       >
-        <Navbar.Brand href="#home">Yourstutor</Navbar.Brand>
+        <Navbar.Brand href="#home">
+          <img src={logo}></img>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto mr-auto">

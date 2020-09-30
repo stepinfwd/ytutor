@@ -20,7 +20,7 @@ function Enroll() {
         </p>
         <ReactWhatsapp
           classname="whatsapp-chat"
-          number="907041628"
+          number="91907041628"
           message="Hey"
           style={{
             border: "1px solid white",
