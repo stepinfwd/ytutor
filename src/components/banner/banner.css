@@ -14,6 +14,15 @@
   z-index: 100;
 }
 */
+.slide-1 {
+  background-image: url("./4355714.jpg");
+}
+.slide-2 {
+  background-image: url("./4212165.jpg");
+}
+.slide-3 {
+  background-image: url("./3980929.jpg");
+}
 .demo-button button {
   width: 160px;
   background: #3ee792 none repeat scroll 0 0 !important;
@@ -40,11 +49,10 @@
 }
 .banner-global {
   height: 100vh !important;
-  background-color: rgb(238, 91, 91);
-  background-image: url("./slide_1.jpg");
   margin: 0 !important;
-  padding: 0 !important
-  ;
+  padding: 0 !important;
+
+  background-size: cover;
 }
 .banner-text {
   z-index: 100 !important;

@@ -33,7 +33,7 @@ function App() {
         className="nav-container"
         style={{
           //   backgroundColor: this.state.status === "top" ? "" : "#fff",
-          backgroundColor: "rgb(117, 40, 241)",
+          backgroundColor: "rgb(14, 12, 12)",
           //   color: this.state.status === "top" ? "#fff" : "#fff",
         }}
       >

@@ -13,7 +13,7 @@ function Banner() {
     <div>
       <Carousel>
         <Carousel.Item>
-          <div className="container-fluid banner-global welcome-single-slide">
+          <div className="container-fluid banner-global welcome-single-slide slide-1">
             <div className="banner-text col-md-7 col-lg-5 col-sm-12 col-xs-12 offset-lg-1 offset-md-1">
               <Slide direction={"up"}>
                 <h3> You're at the right place</h3>
@@ -37,7 +37,7 @@ function Banner() {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="container-fluid banner-global welcome-single-slide">
+          <div className="container-fluid banner-global welcome-single-slide slide-2">
             <div className="banner-text banner-color-1 col-md-7 col-lg-5 col-sm-12 col-xs-12 offset-lg-1 offset-md-1">
               <Slide direction={"up"}>
                 <h3>Your perfect learning partner</h3>
@@ -62,7 +62,7 @@ function Banner() {
           </div>
         </Carousel.Item>
         <Carousel.Item>
-          <div className="container-fluid banner-global welcome-single-slide">
+          <div className="container-fluid banner-global welcome-single-slide slide-3">
             <div className="banner-text banner-color-2 col-md-7 col-lg-5 col-sm-12 col-xs-12 offset-lg-1 offset-md-1">
               <Slide direction={"up"}>
                 <h3>Give us a chance</h3>
