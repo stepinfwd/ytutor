@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ytutor/static/css/main.fa1a5d24.chunk.css",
-    "main.js": "/ytutor/static/js/main.24584683.chunk.js",
-    "main.js.map": "/ytutor/static/js/main.24584683.chunk.js.map",
+    "main.css": "/ytutor/static/css/main.ce8b10dd.chunk.css",
+    "main.js": "/ytutor/static/js/main.3376af29.chunk.js",
+    "main.js.map": "/ytutor/static/js/main.3376af29.chunk.js.map",
     "runtime-main.js": "/ytutor/static/js/runtime-main.96f97df1.js",
     "runtime-main.js.map": "/ytutor/static/js/runtime-main.96f97df1.js.map",
     "static/css/2.f3cffc9e.chunk.css": "/ytutor/static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.1f51349e.chunk.js": "/ytutor/static/js/2.1f51349e.chunk.js",
-    "static/js/2.1f51349e.chunk.js.map": "/ytutor/static/js/2.1f51349e.chunk.js.map",
+    "static/js/2.7316e091.chunk.js": "/ytutor/static/js/2.7316e091.chunk.js",
+    "static/js/2.7316e091.chunk.js.map": "/ytutor/static/js/2.7316e091.chunk.js.map",
     "index.html": "/ytutor/index.html",
-    "precache-manifest.00c8597daec79737400ec1c8217a613b.js": "/ytutor/precache-manifest.00c8597daec79737400ec1c8217a613b.js",
+    "precache-manifest.84fdd4c54ed9db33ddc309f4aad9a26d.js": "/ytutor/precache-manifest.84fdd4c54ed9db33ddc309f4aad9a26d.js",
     "service-worker.js": "/ytutor/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/ytutor/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.fa1a5d24.chunk.css.map": "/ytutor/static/css/main.fa1a5d24.chunk.css.map",
-    "static/js/2.1f51349e.chunk.js.LICENSE.txt": "/ytutor/static/js/2.1f51349e.chunk.js.LICENSE.txt",
+    "static/css/main.ce8b10dd.chunk.css.map": "/ytutor/static/css/main.ce8b10dd.chunk.css.map",
+    "static/js/2.7316e091.chunk.js.LICENSE.txt": "/ytutor/static/js/2.7316e091.chunk.js.LICENSE.txt",
     "static/media/banner.css": "/ytutor/static/media/4355714.750a5b44.jpg",
     "static/media/numbers.css": "/ytutor/static/media/627.97ace72f.jpg",
     "static/media/about.jpg": "/ytutor/static/media/about.411102df.jpg",
@@ -21,6 +21,7 @@
     "static/media/blog-2.jpg": "/ytutor/static/media/blog-2.951e266a.jpg",
     "static/media/blog-3.jpg": "/ytutor/static/media/blog-3.6966356b.jpg",
     "static/media/graduation.svg": "/ytutor/static/media/graduation.ddc7e241.svg",
+    "static/media/logo white.png": "/ytutor/static/media/logo white.5e461c54.png",
     "static/media/project.svg": "/ytutor/static/media/project.f423a3af.svg",
     "static/media/testmonial.jpg": "/ytutor/static/media/testmonial.98884228.jpg",
     "static/media/whatsapp.svg": "/ytutor/static/media/whatsapp.591ad484.svg"
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.96f97df1.js",
     "static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.1f51349e.chunk.js",
-    "static/css/main.fa1a5d24.chunk.css",
-    "static/js/main.24584683.chunk.js"
+    "static/js/2.7316e091.chunk.js",
+    "static/css/main.ce8b10dd.chunk.css",
+    "static/js/main.3376af29.chunk.js"
   ]
 }

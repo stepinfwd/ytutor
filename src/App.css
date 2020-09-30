@@ -7,6 +7,6 @@ h3 {
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
 }
-#home {
+.nav-logo img {
   width: 10rem;
 }

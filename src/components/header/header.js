@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import "./header.css";
-
+// THIS CODE IS NOT USED HEADER IS DIRECTLY WWRITTEN IN APP.js
 function Header() {
   return (
     <div className="navbar-global">

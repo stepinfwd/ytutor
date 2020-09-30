@@ -25,6 +25,7 @@ function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
+    // STYLES FOR NAVBAR HEADER IS WRITEEN IN HEADER.css
     <div className="App">
       <Navbar
         collapseOnSelect
@@ -38,7 +39,7 @@ function App() {
           //   color: this.state.status === "top" ? "#fff" : "#fff",
         }}
       >
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#home" className="nav-logo">
           <img src={logo}></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
