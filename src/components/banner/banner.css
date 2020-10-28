@@ -15,13 +15,13 @@
 }
 */
 .slide-1 {
-  background-image: url("./4355714.jpg");
+  background-image: url("./img/4355714.jpg");
 }
 .slide-2 {
-  background-image: url("./4212165.jpg");
+  background-image: url("./img/4212165.jpg");
 }
 .slide-3 {
-  background-image: url("./3980929.jpg");
+  background-image: url("./img/3980929.jpg");
 }
 .demo-button button {
   width: 160px;
@@ -117,7 +117,7 @@
   .banner-text h3 {
     padding-top: 14rem !important;
   }
-  .banner-global {
+  /* .banner-global {
     height: 600px !important;
-  }
+  } */
 }

@@ -1,7 +1,14 @@
 /* //CUSTOM STYLES START */
 .nav-container {
-  z-index: 99999999999;
   margin-top: 0 !important;
+}
+.navbar-global {
+  /* overflow: hidden; */
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  z-index: 99999999;
+  width: 100%;
 }
 .navbar-dark .navbar-brand {
   color: white !important;

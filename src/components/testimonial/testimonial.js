@@ -1,7 +1,13 @@
 import React from "react";
 import "./testimonial.css";
-import quote from "./quote.png";
-import person from "./testmonial.jpg";
+import quote from "./img/quote.png";
+import person1 from "./img/avataaars1.png";
+import person2 from "./img/avataaars2.png";
+import person3 from "./img/avataaars3.png";
+import person4 from "./img/avataaars4.png";
+import person5 from "./img/avataaars5.png";
+import person7 from "./img/avataaars7.png";
+
 import { Carousel } from "react-bootstrap";
 function Testimonial() {
   return (
@@ -23,7 +29,7 @@ function Testimonial() {
                 </p>
               </div>
               <div className="testimonial-client-details">
-                <img alt="" src={person}></img>
+                <img alt="" src={person7}></img>
                 <h3>Laila Mujeeb</h3>
 
                 <p>Doctor</p>
@@ -43,7 +49,7 @@ function Testimonial() {
                 </p>
               </div>
               <div className="testimonial-client-details">
-                <img alt="" src={person}></img>
+                <img alt="" src={person3}></img>
                 <h3>Vinoy</h3>
 
                 <p>sales manager</p>
@@ -64,7 +70,7 @@ function Testimonial() {
                 </p>
               </div>
               <div className="testimonial-client-details">
-                <img alt="" src={person}></img>
+                <img alt="" src={person1}></img>
                 <h3>Harin Bhatt</h3>
 
                 <p>Businessman</p>
@@ -85,7 +91,7 @@ function Testimonial() {
                 </p>
               </div>
               <div className="testimonial-client-details">
-                <img alt="" src={person}></img>
+                <img alt="" src={person4}></img>
                 <h3>Faseela</h3>
 
                 <p>House Wife</p>
@@ -105,7 +111,7 @@ function Testimonial() {
                 </p>
               </div>
               <div className="testimonial-client-details">
-                <img alt="" src={person}></img>
+                <img alt="" src={person5}></img>
                 <h3>Amina</h3>
 
                 <p>House Wife</p>
@@ -125,7 +131,7 @@ function Testimonial() {
                 </p>
               </div>
               <div className="testimonial-client-details">
-                <img alt="" src={person}></img>
+                <img alt="" src={person2}></img>
                 <h3>Anantharaman</h3>
 
                 <p>Lawyer</p>

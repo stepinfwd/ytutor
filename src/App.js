@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { Navbar } from "react-bootstrap";
+import { Navbar, NavDropdown } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import Feature from "./components/feature/feature";
 import Numbers from "./components/number/numbers";
@@ -14,63 +14,40 @@ import Enroll from "./components/enroll/enroll";
 import Banner from "./components/banner/banner";
 import { Fade } from "react-awesome-reveal";
 import logo from "./logo/logo white.png";
-// WHATSAPP ICON IN ENROLL.js
+import Header from "./components/header/header";
+
 function App() {
-  const [offsetY, setOffsetY] = useState(0);
-  const handleScroll = () => setOffsetY(window.pageYOffset);
+  const [data, setData] = useState({
+    name: "",
+    email: "",
+    phno: "",
+  });
+  const [subEmail, setSubEmail] = useState("");
+  console.log("APP", data);
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
+  const [contact, setContact] = useState({
+    name: "",
+    email: "",
+    sub: "",
+    message: "",
+  });
+  console.log("APP Conatct", contact);
 
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
   return (
-    // STYLES FOR NAVBAR HEADER IS WRITEEN IN HEADER.css
     <div className="App">
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        variant="dark"
-        sticky="top"
-        className="nav-container"
-        style={{
-          //   backgroundColor: this.state.status === "top" ? "" : "#fff",
-          backgroundColor: "rgb(14, 12, 12)",
-          //   color: this.state.status === "top" ? "#fff" : "#fff",
-        }}
-      >
-        <Navbar.Brand href="#home" className="nav-logo">
-          <img src={logo}></img>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto mr-auto">
-            <Nav.Link href="#features">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Course</Nav.Link>
-            <Nav.Link href="#pricing">Testimonial</Nav.Link>
-            <Nav.Link href="#pricing">Blog</Nav.Link>
-            <Nav.Link href="#pricing">Faq</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
-            {/* <Nav.Link href="#pricing">LOGIN</Nav.Link> */}
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-      <Banner />
-      <Numbers offsetY={offsetY} />
-
+      <Header data={data} setData={setData} />
+      <Banner data={data} setData={setData} />
+      <Numbers />
       <Feature />
-      <Enroll />
-
+      {/* <Enroll /> */}
       <Testimonial />
-
       <Video />
       <Blog />
       <Fade delay={1000} triggerOnce>
-        <Contact />
+        <Contact contact={contact} setContact={setContact} />
       </Fade>
       <Fade delay={700} triggerOnce></Fade>
-      <Footer />
+      <Footer subEmail={subEmail} setSubEmail={setSubEmail} />
     </div>
   );
 }

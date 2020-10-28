@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 import "./enroll.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ReactWhatsapp from "react-whatsapp";
-import wi from "./whatsapp.svg";
+import wi from "./img/whatsapp.svg";
 function Enroll() {
   const [modalShow, setModalShow] = React.useState(false);
 

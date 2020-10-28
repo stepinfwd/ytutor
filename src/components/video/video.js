@@ -2,7 +2,7 @@ import React from "react";
 import { Fade } from "react-awesome-reveal";
 
 import "./video.css";
-import img from "./about.jpg";
+import img from "./img/about.jpg";
 function Video() {
   return (
     <div className="container  video-global row col-lg-8 col-md-12 col-sm-12 offset-lg-2 ">

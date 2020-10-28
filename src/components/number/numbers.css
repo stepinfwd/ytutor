@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
-  background-image: url("./627.jpg");
+  background-image: url("./img/627.jpg");
   height: 100%;
   width: 100%;
   background-attachment: fixed;
@@ -22,7 +22,8 @@
 .numbers-container p {
   font-size: 14px;
   margin-bottom: 30px;
-  font-weight: 900;
+  font-weight: 300;
+  letter-spacing: 0.8px;
   color: #ffffff;
 }
 .number-box {

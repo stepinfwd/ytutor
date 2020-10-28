@@ -1,8 +1,8 @@
 import React from "react";
 import "./feature.css";
-import icon1 from "./project.svg";
+import icon1 from "./img/project.svg";
 // import icon2 from "./group.svg";
-import icon3 from "./graduation.svg";
+import icon3 from "./img/graduation.svg";
 import { Fade } from "react-awesome-reveal";
 function Feature() {
   return (

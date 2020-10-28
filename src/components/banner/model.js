@@ -4,38 +4,39 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
 function MyVerticallyCenteredModal(props) {
-  return (
-    <Modal
-      {...props}
-      size="lg"
-      aria-labelledby="contained-modal-title-vcenter"
-      centered
-    >
-      <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">Enroll Now</Modal.Title>
-      </Modal.Header>
-      <Modal.Body>
-        <Form>
-          <Form.Group>
-            <Form.Label>Name</Form.Label>
-            <Form.Control type="text" placeholder="Enter Name" />
-          </Form.Group>
-          <Form.Group controlId="formGroupEmail">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
-          </Form.Group>
-          <Form.Group>
-            <Form.Label>Phone number</Form.Label>
-            <Form.Control type="number" placeholder="Number" />
-          </Form.Group>
-        </Form>
-      </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Save</Button>
+  console.log("rpop", props);
+  const { data } = props;
+  console.log("rpop2", data.email);
+  console.log("func", props.setData);
 
-        {/* <Button onClick={props.onHide}>Close</Button> */}
-      </Modal.Footer>
-    </Modal>
+  const handleChange = (event) => {
+    console.log("changed", data.name);
+    props.setData({ ...data, name: event.target.value });
+  };
+  return (
+    <form>
+      {/* <Form.Label>{props.data.name}</Form.Label> */}
+      <input
+        type="text"
+        placeholder="Enter Name"
+        // value={data.name}
+        onChange={handleChange}
+      />
+      <Form.Label>Email address</Form.Label>
+      <input
+        type="email"
+        placeholder={data.email}
+        value={data.email}
+        // onChange={(value) => handleChange(value)}
+      />
+      <Form.Label>Phone number</Form.Label>
+      <input
+        type="number"
+        placeholder="Number"
+        value={data.phno}
+        // onChange={(value) => handleChange(value)}
+      />
+    </form>
   );
 }
 export default MyVerticallyCenteredModal;
