@@ -31,7 +31,7 @@ function App() {
     sub: "",
     message: "",
   });
-  console.log("APP Conatct", contact);
+  console.log("APP Conatct", subEmail);
 
   return (
     <div className="App">

@@ -5,10 +5,12 @@ import Form from "react-bootstrap/Form";
 
 function MyVerticallyCenteredModal(props) {
   const { data } = props;
-  console.log("MODAL PRP", props);
+  // console.log("MODAL PRP", props);
   const handleChange = (event) => {
-    console.log("changed", data.name);
-    props.setData({ ...data, name: event.target.value });
+    props.setData({ ...data, [event.target.name]: event.target.value });
+  };
+  const formHandler = (e) => {
+    e.preventDefault();
   };
   return (
     <Modal
@@ -28,21 +30,35 @@ function MyVerticallyCenteredModal(props) {
               type="text"
               placeholder="Enter Name"
               value={data.name}
+              name="name"
               onChange={handleChange}
             />
           </Form.Group>
           <Form.Group controlId="formGroupEmail">
             <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
+            <Form.Control
+              type="email"
+              placeholder="Enter email"
+              name="email"
+              onChange={handleChange}
+            />
           </Form.Group>
           <Form.Group>
             <Form.Label>Phone number</Form.Label>
-            <Form.Control type="number" placeholder="Number" />
+            <Form.Control
+              type="number"
+              placeholder="Number"
+              name="phno"
+              onChange={handleChange}
+            />
           </Form.Group>
         </Form>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Save</Button>
+        <Button onClick={props.onHide} onClick={formHandler}>
+          Save
+        </Button>
+        {/* <Button onClick={formHandler}>Save</Button> */}
 
         {/* <Button onClick={props.onHide}>Close</Button> */}
       </Modal.Footer>

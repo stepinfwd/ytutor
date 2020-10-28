@@ -43,7 +43,7 @@ function Contact(props) {
             onChange={contactHandler}
           ></textarea>
 
-          <button onSubmit={contactSave} type="submit">
+          <button onClick={contactSave} type="submit">
             send message
           </button>
         </div>

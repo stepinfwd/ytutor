@@ -10,13 +10,6 @@ import MyVerticallyCenteredModal from "../model/model";
 function Header(props) {
   const { data, setData } = props;
   const [modalShow, setModalShow] = React.useState(false);
-  const [offsetY, setOffsetY] = useState(0);
-  const handleScroll = () => setOffsetY(window.pageYOffset);
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
   return (
     <div className="navbar-global">
       <Navbar
@@ -42,15 +35,26 @@ function Header(props) {
             <Nav.Link href="#blog">Blog</Nav.Link>
             <Nav.Link href="#faq">Faq</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#enroll-tab">
-              <div className=" enrol-sections enroll-button">
+            <div className="navbar_mobile_dropdown_toggle">
+              {/* FOR MOBILE UI */}
+              <Nav.Link href="#blog">Action</Nav.Link>
+              <Nav.Link href="#faq">Another Action</Nav.Link>
+              <Nav.Link href="#contact">Something</Nav.Link>
+            </div>
+            {/* FOR DESKTOP */}
+            <div className="navbar_desktop_dropdown_toggle">
+              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">
+                  Another action
+                </NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">
+                  Something
+                </NavDropdown.Item>
+              </NavDropdown>
+            </div>
+            <Nav.Link href="#enroll-tab" className="enroll-button-custom">
+              <div className=" enrol-sections enroll-button ">
                 <button variant="primary" onClick={() => setModalShow(true)}>
                   Enroll Now
                 </button>

@@ -43,13 +43,26 @@
   text-align: initial;
   margin-left: 2rem;
 }
+.nav-logo {
+  margin-top: 0.5rem;
+}
+.enroll-button-custom {
+  /* padding-top: 0 !important; */
+  margin: 0 !important;
+}
 .navbar-toggler {
   background-color: #444444 !important;
 }
 
+.navbar_desktop_dropdown_toggle {
+  display: none;
+}
 @media screen and (min-width: 769px) {
   .navbar-dark .navbar-brand {
     margin-left: 0.5rem;
+  }
+  .navbar_mobile_dropdown_toggle {
+    display: none;
   }
 }
 
@@ -59,6 +72,9 @@
   }
   .hero-text {
     margin-left: 5rem;
+  }
+  .navbar_mobile_dropdown_toggle {
+    display: none;
   }
   .nav-link {
     padding-right: 25px !important;

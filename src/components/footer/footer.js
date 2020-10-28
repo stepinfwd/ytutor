@@ -2,16 +2,22 @@ import React from "react";
 import "./footer.css";
 function Footer(props) {
   const { subEmail, setSubEmail } = props;
-
+  const emailHanlder = (e) => {
+    setSubEmail(e.target.value);
+  };
   const subcriptionSubmit = (e) => {
+    console.log("ENTRYYYYY");
     e.preventDefault();
-    setSubEmail({ subEmail: e.target.value });
-    console.log("submail", subEmail);
-    clearField();
+    if (subEmail) {
+      console.log("submail", subEmail);
+      const email = subEmail;
+      console.log("value", email);
+      setSubEmail({ subEmail: "" });
+      console.log("update", subEmail);
+      alert("THANK YOU");
+    }
   };
-  const clearField = () => {
-    setSubEmail({ subEmail: "" });
-  };
+  const clearField = () => {};
   return (
     <div className="container-fluid col-lg-12 footer-global">
       <div className=" footer">
@@ -24,7 +30,6 @@ function Footer(props) {
               inquiries into its Yemen.
             </h3>
           </div>
-
           {/* <div className=" col-md-2 col-sm-6 col-lg-2 col-xs-12 footer-links ">
             <ul>
               <li>Privacy Policy</li>
@@ -39,19 +44,24 @@ function Footer(props) {
               Doubtful for answered one fat indulged margaret sir shutters
               together. Ladies so in wholly .
             </p>
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="email@example.com"
-            />
-            <button
-              onSubmit={subcriptionSubmit}
-              className="footer-submit-button"
-            >
-              Submit
-            </button>
+            <form>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="email@example.com"
+                onChange={emailHanlder}
+              />
+              <button
+                className="footer-submit-button"
+                type="submit"
+                onClick={subcriptionSubmit}
+                value={subEmail}
+              >
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </div>
