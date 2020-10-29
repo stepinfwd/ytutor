@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8be6dbe353ccefb706c02617329fe92a",
+    "revision": "74828d8083686afbcc3d0854ea1e2298",
     "url": "/ytutor/index.html"
   },
   {
-    "revision": "59380c4f9b5a558d210e",
+    "revision": "4ade77445cb7fbe5a202",
     "url": "/ytutor/static/css/2.f3cffc9e.chunk.css"
   },
   {
-    "revision": "54806dfac82915f2d76f",
-    "url": "/ytutor/static/css/main.ae303316.chunk.css"
+    "revision": "a45d1591db4ce964dfb1",
+    "url": "/ytutor/static/css/main.c2b2d36a.chunk.css"
   },
   {
-    "revision": "59380c4f9b5a558d210e",
-    "url": "/ytutor/static/js/2.7316e091.chunk.js"
+    "revision": "4ade77445cb7fbe5a202",
+    "url": "/ytutor/static/js/2.770d1d5f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/ytutor/static/js/2.7316e091.chunk.js.LICENSE.txt"
+    "url": "/ytutor/static/js/2.770d1d5f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "54806dfac82915f2d76f",
-    "url": "/ytutor/static/js/main.14de52db.chunk.js"
+    "revision": "a45d1591db4ce964dfb1",
+    "url": "/ytutor/static/js/main.d4cce470.chunk.js"
   },
   {
     "revision": "125742bb497dfb12b46a",
@@ -48,6 +48,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ytutor/static/media/about.411102df.jpg"
   },
   {
+    "revision": "ebbc82c60091a7db34f6a8135b0af583",
+    "url": "/ytutor/static/media/avataaars1.ebbc82c6.png"
+  },
+  {
+    "revision": "0fb6760309e389b8b1e4a0e9cfa8e817",
+    "url": "/ytutor/static/media/avataaars2.0fb67603.png"
+  },
+  {
+    "revision": "594e98ce2656da8406f89e97ed91b530",
+    "url": "/ytutor/static/media/avataaars3.594e98ce.png"
+  },
+  {
+    "revision": "f6f8d2a70b34627dff882bcf7ff5a3ad",
+    "url": "/ytutor/static/media/avataaars4.f6f8d2a7.png"
+  },
+  {
+    "revision": "1b3a8bdef187e7e97d1bd15cb28a8b24",
+    "url": "/ytutor/static/media/avataaars5.1b3a8bde.png"
+  },
+  {
+    "revision": "8ff6df504fefc9be53257f9abf5a4b69",
+    "url": "/ytutor/static/media/avataaars7.8ff6df50.png"
+  },
+  {
     "revision": "dae2b1ddb169c4c572536584addf4429",
     "url": "/ytutor/static/media/blog-1.dae2b1dd.jpg"
   },
@@ -70,10 +94,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f423a3af5abac02a65af1aba363462e5",
     "url": "/ytutor/static/media/project.f423a3af.svg"
-  },
-  {
-    "revision": "988842282a56612b6690b798d3518bb6",
-    "url": "/ytutor/static/media/testmonial.98884228.jpg"
   },
   {
     "revision": "591ad484c623bce49137401777911e6f",

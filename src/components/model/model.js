@@ -19,6 +19,7 @@ function MyVerticallyCenteredModal(props) {
       size="lg"
       aria-labelledby="contained-modal-title-vcenter"
       centered
+      style={{ zIndex: "99999999" }}
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">Enroll Now</Modal.Title>

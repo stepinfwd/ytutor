@@ -8,7 +8,7 @@ import Footer from "./components/footer/footer";
 import Blog from "./components/blog/blog";
 import Testimonial from "./components/testimonial/testimonial";
 import Video from "./components/video/video";
-// import Enroll from "./components/enroll/enroll";
+import Enroll from "./components/enroll/enroll";
 import Banner from "./components/banner/banner";
 import { Fade } from "react-awesome-reveal";
 import Header from "./components/header/header";
@@ -37,7 +37,8 @@ function App() {
       <Banner data={data} setData={setData} />
       <Numbers />
       <Feature />
-      {/* <Enroll /> */}
+      <Enroll />
+      {/* WHATS APP ICON DEFINED IN ENROLL JS */}
       <Testimonial />
       <Video />
       {/* <Blog /> */}

@@ -7,7 +7,7 @@
   background-color: #333;
   position: fixed;
   top: 0;
-  z-index: 99999999;
+  z-index: 1000;
   width: 100%;
 }
 .navbar-dark .navbar-brand {
