@@ -1,0 +1,9 @@
+.model-button {
+  background-color: #00c7ae !important;
+  border: none !important;
+  font-weight: 900 !important;
+}
+.model-global,
+.model-title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import "./model.css";
 
 function MyVerticallyCenteredModal(props) {
   const { data, setData } = props;
@@ -20,9 +21,12 @@ function MyVerticallyCenteredModal(props) {
       aria-labelledby="contained-modal-title-vcenter"
       centered
       style={{ zIndex: "99999999" }}
+      className="model-global"
     >
       <Modal.Header closeButton>
-        <Modal.Title id="contained-modal-title-vcenter">Enroll Now</Modal.Title>
+        <Modal.Title className="model-title" id="contained-modal-title-vcenter">
+          Enroll Now
+        </Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <Form>
@@ -57,15 +61,17 @@ function MyVerticallyCenteredModal(props) {
         </Form>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide} type="submit">
+        <Button
+          onClick={props.onHide}
+          type="submit"
+          // style={{ backgroundColor: color }}
+          className="model-button"
+        >
           close
         </Button>
-        <Button type="submit" onClick={formHandler}>
-          Save
+        <Button type="submit" onClick={formHandler} className="model-button">
+          save
         </Button>
-        {/* <Button onClick={formHandler}>Save</Button> */}
-
-        {/* <Button onClick={props.onHide}>Close</Button> */}
       </Modal.Footer>
     </Modal>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import "./numbers.css";
 import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
 
 function Numbers() {
   return (
@@ -15,10 +16,17 @@ function Numbers() {
               <CountUp
                 start={1}
                 end={20}
-                duration={2.3}
+                duration={4.3}
                 useEasing={true}
                 suffix=" K"
-              />
+                redraw={true}
+              >
+                {({ countUpRef, start }) => (
+                  <VisibilitySensor onChange={start} delayedCall>
+                    <span ref={countUpRef} />
+                  </VisibilitySensor>
+                )}
+              </CountUp>
             </h2>
             <p>Enrolled Students</p>
           </div>
@@ -28,10 +36,17 @@ function Numbers() {
               <CountUp
                 start={0}
                 end={3}
-                duration={2.3}
+                duration={4.3}
                 useEasing={true}
                 suffix="K "
-              />
+                redraw={true}
+              >
+                {({ countUpRef, start }) => (
+                  <VisibilitySensor onChange={start} delayedCall>
+                    <span ref={countUpRef} />
+                  </VisibilitySensor>
+                )}
+              </CountUp>
             </h2>
             <p>Expert Instructors</p>
           </div>
@@ -44,7 +59,14 @@ function Numbers() {
                 duration={2.3}
                 useEasing={true}
                 suffix="K "
-              />
+                redraw={true}
+              >
+                {({ countUpRef, start }) => (
+                  <VisibilitySensor onChange={start} delayedCall>
+                    <span ref={countUpRef} />
+                  </VisibilitySensor>
+                )}
+              </CountUp>
             </h2>
             <p>Books in our library</p>
           </div>
@@ -57,7 +79,14 @@ function Numbers() {
                 duration={2.3}
                 useEasing={true}
                 suffix=" K"
-              />
+                redraw={true}
+              >
+                {({ countUpRef, start }) => (
+                  <VisibilitySensor onChange={start} delayedCall>
+                    <span ref={countUpRef} />
+                  </VisibilitySensor>
+                )}
+              </CountUp>
             </h2>
             <p>Students get employed</p>
           </div>

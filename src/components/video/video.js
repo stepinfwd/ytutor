@@ -12,10 +12,14 @@ function Video() {
             Education is the foundation upon which we build our future.
           </h3>
           <p>
-            A Google Docs scam that appears to be widespread began landing in
-            users’ inboxes on Wednesday in what seemed to be a sophisticated
-            phishing or malware attack. The deceptive invitation to edit a
-            Google Doc on Google Docs with you.
+            YoursTutor has a huge reputation of having rapidly made a national
+            presence across our country and along with it, expanding all around
+            the globe. The key to our very successful present and hopeful future
+            are our vast amount of customers, for whom we ensure to provide
+            customized sessions in various packages that will best suit their
+            children. In every field regarding our service, from tuition hours
+            to it's frequency, YoursTutor rather focuses on the quality over the
+            numbers.
           </p>
         </Fade>
       </div>

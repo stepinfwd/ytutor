@@ -48,11 +48,14 @@ function Feature() {
           <Fade delay={400} triggerOnce>
             <h3>Yourstutor is trusted by 50,000+ student.</h3>
             <p>
-              Microsoft has spent a lot of time trying to make Windows
-              self-repairing, partly because it generally gets the blame when
-              other programs or users try to improve” it. Given that tens of
-              thousands of expert programmers have worked on the code over the
-              past 30 years.
+              YoursTutor is solely found on a vision, that is to build a society
+              with the highest of quality students. We intend to do that by
+              providing them with professional training, which focuses on the
+              weaknesses of the student, helping them overcome the same, and
+              thus finding their aptitude. We are wortour best, on a mission
+              that is to build a platform that could bridge the gap between
+              every tutor and their students, so they can work towards their
+              passion with proper sustained guidance..
             </p>
           </Fade>
         </div>
