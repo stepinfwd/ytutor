@@ -30,10 +30,10 @@ function Header(props) {
           <Nav className="ml-auto mr-auto">
             <Nav.Link href="#features">Home</Nav.Link>
             <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Course</Nav.Link>
+            {/* <Nav.Link href="#pricing">Course</Nav.Link> */}
             <Nav.Link href="#testimonial">Testimonial</Nav.Link>
-            <Nav.Link href="#blog">Blog</Nav.Link>
-            <Nav.Link href="#faq">Faq</Nav.Link>
+            {/* <Nav.Link href="#blog">Blog</Nav.Link> */}
+            {/* <Nav.Link href="#faq">Faq</Nav.Link> */}
             <Nav.Link href="#contact">Contact</Nav.Link>
             <div className="navbar_mobile_dropdown_toggle">
               {/* FOR MOBILE UI */}

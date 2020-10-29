@@ -57,12 +57,52 @@
 .navbar_desktop_dropdown_toggle {
   display: none;
 }
+.enroll-button button {
+  background: #00c7ae none repeat scroll 0 0 !important;
+  border: 0 none;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 13px 20px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  font-weight: 900;
+}
+/* CUSTOM STYLES FOR DROPDOWN BUTTON */
+#basic-nav-dropdown {
+  margin-top: -1rem;
+}
+.dropdown-menu {
+  margin-top: 1.8rem !important;
+}
+
+/* -----END----------------->CUSTOM DROPDOWN */
 @media screen and (min-width: 769px) {
   .navbar-dark .navbar-brand {
     margin-left: 0.5rem;
   }
   .navbar_mobile_dropdown_toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 1150px) and (min-width: 993px) {
+  .nav-logo img {
+    margin-left: -8rem;
+  }
+  .navbar-nav a {
+    margin-top: 1rem;
+  }
+  #basic-nav-dropdown {
+    margin-top: -0.5rem;
+  }
+  .navbar_mobile_dropdown_toggle {
     display: none;
+  }
+  .navbar_desktop_dropdown_toggle {
+    display: block;
   }
 }
 
@@ -75,6 +115,9 @@
   }
   .navbar_mobile_dropdown_toggle {
     display: none;
+  }
+  .navbar_desktop_dropdown_toggle {
+    display: block;
   }
   .nav-link {
     padding-right: 25px !important;

@@ -2,17 +2,13 @@ import React from "react";
 import "./numbers.css";
 import CountUp from "react-countup";
 
-function Numbers(props) {
-  const { offsetY } = props;
+function Numbers() {
   return (
     <div
       className="container-fluid numbers-container "
       // style={{ transform: -`translateY(${offsetY * 0.6}px)` }}
     >
-      <div
-        className="overlay col-lg-12 col-md-12  
-      style={{ transform: -`translateY(${offsetY * 0.6}px)` }}"
-      >
+      <div className="overlay col-lg-12 col-md-12">
         <div className="number-box  row col-lg-8 col-md-8 offset-lg-2 offset-md-2 ">
           <div className="col-md-3 col-lg-3 each-number">
             <h2>

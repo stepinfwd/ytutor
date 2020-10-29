@@ -3,7 +3,7 @@ import "./contact.css";
 function Contact(props) {
   const { contact, setContact } = props;
   const contactHandler = (e) => {
-    setContact({ ...contact, name: e.target.value });
+    setContact({ ...contact, [e.target.name]: e.target.value });
     console.log("contact isFinite", contact);
   };
   const contactSave = (e) => {
@@ -19,6 +19,7 @@ function Contact(props) {
             class="form-control"
             placeholder="Name."
             onChange={contactHandler}
+            name="name"
           />
           <input
             type="email"
@@ -27,12 +28,14 @@ function Contact(props) {
             aria-describedby="emailHelp"
             placeholder="Email@example.com"
             onChange={contactHandler}
+            name="email"
           />
           <input
             type="text"
             class="form-control"
             placeholder="subject."
             onChange={contactHandler}
+            name="sub"
           />
           <textarea
             class="form-control"
@@ -41,6 +44,7 @@ function Contact(props) {
             name="form-message"
             required=""
             onChange={contactHandler}
+            name="message"
           ></textarea>
 
           <button onClick={contactSave} type="submit">

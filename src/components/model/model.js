@@ -55,7 +55,7 @@ function MyVerticallyCenteredModal(props) {
         </Form>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide} onClick={formHandler}>
+        <Button onClick={props.onHide} type="submit" onSubmit={formHandler}>
           Save
         </Button>
         {/* <Button onClick={formHandler}>Save</Button> */}

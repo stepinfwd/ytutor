@@ -59,7 +59,7 @@ function Footer(props) {
                 onClick={subcriptionSubmit}
                 value={subEmail}
               >
-                Submit
+                Subscribe
               </button>
             </form>
           </div>

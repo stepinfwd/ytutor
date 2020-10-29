@@ -1,7 +1,5 @@
 import React from "react";
 import "./banner.css";
-import Header from "../header/header";
-import { useState, useEffect } from "react";
 import MyVerticallyCenteredModal from "../model/model.js";
 import { Slide, Fade } from "react-awesome-reveal";
 import { Carousel } from "react-bootstrap";
@@ -11,9 +9,7 @@ function Banner(props) {
   const { data, setData } = props;
   console.log("props", props);
   // console.log("banner func log", props.setData);
-  const clickFunc = () => {
-    props.setData({ ...data, name: " changed " });
-  };
+
   return (
     <div>
       <Carousel>
@@ -39,7 +35,6 @@ function Banner(props) {
                     setData={setData}
                   />
                 </div>
-                {/* <button onClick={clickFunc}>HELOASDHAJSDKASD</button> */}
               </Fade>
             </div>
           </div>
