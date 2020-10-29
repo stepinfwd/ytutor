@@ -4,13 +4,14 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
 function MyVerticallyCenteredModal(props) {
-  const { data } = props;
+  const { data, setData } = props;
   // console.log("MODAL PRP", props);
   const handleChange = (event) => {
     props.setData({ ...data, [event.target.name]: event.target.value });
   };
   const formHandler = (e) => {
     e.preventDefault();
+    setData("");
   };
   return (
     <Modal
@@ -55,7 +56,10 @@ function MyVerticallyCenteredModal(props) {
         </Form>
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide} type="submit" onSubmit={formHandler}>
+        <Button onClick={props.onHide} type="submit">
+          close
+        </Button>
+        <Button type="submit" onClick={formHandler}>
           Save
         </Button>
         {/* <Button onClick={formHandler}>Save</Button> */}
