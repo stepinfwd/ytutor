@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ytutor/static/css/main.f7f17059.chunk.css",
+    "main.css": "/ytutor/static/css/main.7cc194d7.chunk.css",
     "main.js": "/ytutor/static/js/main.18f5a3fc.chunk.js",
     "main.js.map": "/ytutor/static/js/main.18f5a3fc.chunk.js.map",
     "runtime-main.js": "/ytutor/static/js/runtime-main.96f97df1.js",
@@ -9,10 +9,10 @@
     "static/js/2.8d990866.chunk.js": "/ytutor/static/js/2.8d990866.chunk.js",
     "static/js/2.8d990866.chunk.js.map": "/ytutor/static/js/2.8d990866.chunk.js.map",
     "index.html": "/ytutor/index.html",
-    "precache-manifest.81c2f6ebbac45cdfc129d16d619c8c7a.js": "/ytutor/precache-manifest.81c2f6ebbac45cdfc129d16d619c8c7a.js",
+    "precache-manifest.3199f895ca67a4eade22c1a6338d0f87.js": "/ytutor/precache-manifest.3199f895ca67a4eade22c1a6338d0f87.js",
     "service-worker.js": "/ytutor/service-worker.js",
     "static/css/2.f3cffc9e.chunk.css.map": "/ytutor/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.f7f17059.chunk.css.map": "/ytutor/static/css/main.f7f17059.chunk.css.map",
+    "static/css/main.7cc194d7.chunk.css.map": "/ytutor/static/css/main.7cc194d7.chunk.css.map",
     "static/js/2.8d990866.chunk.js.LICENSE.txt": "/ytutor/static/js/2.8d990866.chunk.js.LICENSE.txt",
     "static/media/banner.css": "/ytutor/static/media/4355714.750a5b44.jpg",
     "static/media/numbers.css": "/ytutor/static/media/627.97ace72f.jpg",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.96f97df1.js",
     "static/css/2.f3cffc9e.chunk.css",
     "static/js/2.8d990866.chunk.js",
-    "static/css/main.f7f17059.chunk.css",
+    "static/css/main.7cc194d7.chunk.css",
     "static/js/main.18f5a3fc.chunk.js"
   ]
 }
