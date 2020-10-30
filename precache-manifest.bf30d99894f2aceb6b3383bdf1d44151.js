@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f78a50e4b51a2410d2b06ac897381ff8",
+    "revision": "c1c1a54e1b692d1486bfd628bf4edb89",
     "url": "/ytutor/index.html"
   },
   {
-    "revision": "0c1199e1f4a5970ed99a",
+    "revision": "9abcfde174390bbfc9d6",
     "url": "/ytutor/static/css/2.f3cffc9e.chunk.css"
   },
   {
-    "revision": "6c75b7a4725c589e8c27",
-    "url": "/ytutor/static/css/main.7cc194d7.chunk.css"
+    "revision": "1baa752880d5fbaeb4c8",
+    "url": "/ytutor/static/css/main.2a3bd937.chunk.css"
   },
   {
-    "revision": "0c1199e1f4a5970ed99a",
-    "url": "/ytutor/static/js/2.8d990866.chunk.js"
+    "revision": "9abcfde174390bbfc9d6",
+    "url": "/ytutor/static/js/2.2851c80f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/ytutor/static/js/2.8d990866.chunk.js.LICENSE.txt"
+    "url": "/ytutor/static/js/2.2851c80f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c75b7a4725c589e8c27",
-    "url": "/ytutor/static/js/main.36e29946.chunk.js"
+    "revision": "1baa752880d5fbaeb4c8",
+    "url": "/ytutor/static/js/main.96479454.chunk.js"
   },
   {
     "revision": "125742bb497dfb12b46a",
