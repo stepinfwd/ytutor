@@ -4,6 +4,11 @@
   /* padding-top: 50px; */
   font-weight: 900;
 }
+.video-global {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+  text-align: center;
+}
 .video-img {
   max-width: 100%;
   height: auto;

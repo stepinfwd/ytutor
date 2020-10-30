@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 p {
   color: #747b8c;
 }
@@ -6,9 +9,6 @@ h3 {
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
-}
-.nav-logo img {
-  width: 10rem;
 }
 .enroll-link {
   margin: 0 !important;
@@ -22,16 +22,6 @@ body {
   z-index: 1000;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
 }
-
-.nav-logo {
-  height: 60px;
-  width: 60px;
-}
-
-.nav-logo:hover {
-  cursor: pointer;
-}
-
 .nav .nav-content {
   max-width: 900px;
   padding: 0rem 3rem;
@@ -41,26 +31,19 @@ body {
   align-items: center;
   height: 100%;
 }
-
 .nav-item {
   display: inline;
   margin-left: 2rem;
   color: #333;
 }
-
 .nav-item:hover {
   color: black;
   cursor: pointer;
 }
-
-.section {
-}
-
 .section-dark {
   background: #333;
   color: white;
 }
-
 .section-content {
   max-width: 800px;
   margin: 0 auto;

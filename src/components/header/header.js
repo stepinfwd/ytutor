@@ -3,12 +3,11 @@ import { Navbar, NavDropdown } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
 import "./header.css";
 import logo from "../../logo/logo white.png";
-import { useState, useEffect } from "react";
 import MyVerticallyCenteredModal from "../model/model";
 
 // THIS CODE IS NOT USED,(HEADER IS DIRECTLY WRITTEN IN APP.js)
 function Header(props) {
-  const { data, setData } = props;
+  const { data, setData, executeScroll, itemRef } = props;
   const [modalShow, setModalShow] = React.useState(false);
   return (
     <div className="navbar-global">
@@ -23,18 +22,39 @@ function Header(props) {
         }}
       >
         <Navbar.Brand href="#home" className="nav-logo">
-          <img src={logo}></img>
+          <img
+            alt=""
+            onClick={() => executeScroll(itemRef[0])}
+            src={logo}
+          ></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto mr-auto">
-            <Nav.Link href="#features">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link
+              href="#features"
+              onClick={() => executeScroll(itemRef[0])}
+            >
+              Home
+            </Nav.Link>
+            <Nav.Link
+              href="#features"
+              onClick={() => executeScroll(itemRef[1])}
+            >
+              Features
+            </Nav.Link>
             {/* <Nav.Link href="#pricing">Course</Nav.Link> */}
-            <Nav.Link href="#testimonial">Testimonial</Nav.Link>
+            <Nav.Link
+              href="#testimonial"
+              onClick={() => executeScroll(itemRef[2])}
+            >
+              Testimonial
+            </Nav.Link>
             {/* <Nav.Link href="#blog">Blog</Nav.Link> */}
             {/* <Nav.Link href="#faq">Faq</Nav.Link> */}
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#contact" onClick={() => executeScroll(itemRef[3])}>
+              Contact
+            </Nav.Link>
             <div className="navbar_mobile_dropdown_toggle">
               {/* FOR MOBILE UI */}
               <Nav.Link href="#blog">Action</Nav.Link>

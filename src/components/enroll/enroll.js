@@ -19,7 +19,7 @@ function Enroll() {
         }}
       >
         <span className="whatsapp-icon">
-          <img src={wi}></img>
+          <img alt="" src={wi}></img>
         </span>
       </ReactWhatsapp>
     </div>

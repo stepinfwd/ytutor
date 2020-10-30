@@ -6,7 +6,6 @@ import "./model.css";
 
 function MyVerticallyCenteredModal(props) {
   const { data, setData } = props;
-  // console.log("MODAL PRP", props);
   const handleChange = (event) => {
     props.setData({ ...data, [event.target.name]: event.target.value });
   };

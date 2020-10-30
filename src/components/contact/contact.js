@@ -41,7 +41,7 @@ function Contact(props) {
             class="form-control"
             rows="6"
             id="form-message"
-            name="form-message"
+            // name="form-message"
             required=""
             onChange={contactHandler}
             name="message"

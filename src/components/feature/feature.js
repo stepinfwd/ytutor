@@ -55,7 +55,7 @@ function Feature() {
               thus finding their aptitude. We are wortour best, on a mission
               that is to build a platform that could bridge the gap between
               every tutor and their students, so they can work towards their
-              passion with proper sustained guidance..
+              passion with proper sustained guidance.
             </p>
           </Fade>
         </div>

@@ -7,9 +7,6 @@ import { Carousel } from "react-bootstrap";
 function Banner(props) {
   const [modalShow, setModalShow] = React.useState(false);
   const { data, setData } = props;
-  console.log("props", props);
-  // console.log("banner func log", props.setData);
-
   return (
     <div>
       <Carousel>

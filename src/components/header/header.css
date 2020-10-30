@@ -46,6 +46,16 @@
 .nav-logo {
   margin-top: 0.5rem;
 }
+.nav-logo img {
+  width: 10rem;
+}
+.nav-logo:hover {
+  cursor: pointer;
+}
+.nav-logo {
+  height: 60px;
+  width: 60px;
+}
 .enroll-button-custom {
   /* padding-top: 0 !important; */
   margin: 0 !important;
@@ -53,7 +63,6 @@
 .navbar-toggler {
   background-color: #444444 !important;
 }
-
 .navbar_desktop_dropdown_toggle {
   display: none;
 }
