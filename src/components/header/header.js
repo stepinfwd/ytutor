@@ -57,20 +57,16 @@ function Header(props) {
             </Nav.Link>
             <div className="navbar_mobile_dropdown_toggle">
               {/* FOR MOBILE UI */}
-              <Nav.Link href="#blog">Action</Nav.Link>
-              <Nav.Link href="#faq">Another Action</Nav.Link>
-              <Nav.Link href="#contact">Something</Nav.Link>
+              <Nav.Link href="#blog">Student</Nav.Link>
+              <Nav.Link href="#faq">Tutor</Nav.Link>
+              <Nav.Link href="#contact">Marketer</Nav.Link>
             </div>
             {/* FOR DESKTOP */}
             <div className="navbar_desktop_dropdown_toggle">
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
+              <NavDropdown title="Register" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1">Student</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.2">Tutor</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Marketer</NavDropdown.Item>
               </NavDropdown>
             </div>
             <Nav.Link href="#enroll-tab" className="enroll-button-custom">

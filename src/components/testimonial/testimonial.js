@@ -50,7 +50,7 @@ function Testimonial() {
               </div>
               <div className="testimonial-client-details">
                 <img alt="" src={person3}></img>
-                <h3>Vinoy</h3>
+                <h3>Mahmood</h3>
 
                 <p>sales manager</p>
               </div>
