@@ -65,11 +65,11 @@ function Header(props) {
             <div className="navbar_desktop_dropdown_toggle">
               <NavDropdown title="Register" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Student</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Tutor</NavDropdown.Item>
+                <NavDropdown.Item target="_blank" href="https://forms.gle/onCTvH4pib22Noix5">Tutor</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">Marketer</NavDropdown.Item>
               </NavDropdown>
             </div>
-            <Nav.Link href="#enroll-tab" className="enroll-button-custom">
+            {/* <Nav.Link href="#enroll-tab" className="enroll-button-custom">
               <div className=" enrol-sections enroll-button ">
                 <button variant="primary" onClick={() => setModalShow(true)}>
                   Enroll Now
@@ -81,7 +81,7 @@ function Header(props) {
                   setData={setData}
                 />
               </div>
-            </Nav.Link>
+            </Nav.Link> */}
             {/* <Nav.Link href="#pricing">LOGIN</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
